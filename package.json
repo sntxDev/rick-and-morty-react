@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sntxdev.github.io/rick-and-morty-react",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,7 +11,6 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://sntxdev.github.io/rick-and-morty-react",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
