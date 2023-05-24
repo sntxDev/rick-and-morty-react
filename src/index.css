@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.face-404 {
+  position: relative;
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  33% {
+    top: 0px;
+  }
+  66% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
